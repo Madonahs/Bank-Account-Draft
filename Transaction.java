@@ -3,17 +3,14 @@ package Root;
 import java.util.Date;
 
 public class Transaction {
-  
-	
+ 
 	private double amount;
 	
 	private Date timestamp;
 	
 	private String memo;
 	
-	private Account inAccount;
-	
-	
+	private Account inAccount;	
 	public Transaction(double amount, Account inAccount){
 		
 		this.amount = amount;
