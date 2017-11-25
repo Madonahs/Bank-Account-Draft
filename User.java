@@ -5,17 +5,11 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 /**
-
  * @author syombua
-
  *
-
  */
 public class User {
 
-	/**
-	 * 
-	 */
 	private String firstName;
 	
 	private String lastName;
