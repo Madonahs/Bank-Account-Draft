@@ -9,22 +9,22 @@ import java.util.Random;
  * @author syombua
  *
  */
-public class Bank {
+public class Bank 
+{
 
-	
 	private String name;
-	
 	private ArrayList<User> users;
-	
 	private ArrayList<Account> accounts;
 	//creat anew bank object with list empty
-	public Bank(String name){
+	public Bank(String name)
+	{
 		this.name = name;
 		this.users = new ArrayList<User>();
 		this.accounts = new ArrayList<Account>();
 	}
 	// generate a new universally unique ID for a user
-	public String getNewUserUUID(){
+	public String getNewUserUUID()
+	{
 		
 		String uuid;
 		Random rng = new Random();
@@ -35,14 +35,17 @@ public class Bank {
 		do{
 			//generate the number
 			uuid = "";
-			for (int c = 0; c<len; c++){
+			for (int c = 0; c<len; c++)
+			{
 				
 				uuid+= ((Integer)rng.nextInt(10)).toString();
 			}
 			//check to makesure its unique
 			nonUnique = false;
-			for (User u : this.users){
-				if(uuid.compareTo(u.getUUID())== 0){
+			for (User u : this.users)
+			{
+				if(uuid.compareTo(u.getUUID())== 0)
+				{
 					nonUnique = true;
 					break;
 				}
@@ -54,7 +57,8 @@ public class Bank {
 		
 	}
 	//generate unique IDs for each account
-	public String getNewAccontUUID(){
+	public String getNewAccontUUID()
+	{
 
 		String uuid;
 		Random rng = new Random();
@@ -65,14 +69,17 @@ public class Bank {
 		do{
 			//generate the number
 			uuid = "";
-			for (int c = 0; c<len; c++){
+			for (int c = 0; c<len; c++)
+			{
 				
 				uuid+= ((Integer)rng.nextInt(10)).toString();
 			}
 			//check to makesure if unique
 			nonUnique = false;
-			for (Account a : this.accounts){
-				if(uuid.compareTo(a.getUUID())== 0){
+			for (Account a : this.accounts)
+			{
+				if(uuid.compareTo(a.getUUID())== 0)
+				{
 					nonUnique = true;
 					break;
 				}
@@ -84,11 +91,13 @@ public class Bank {
 		
 	}
 	
-	public void addAccount(Account onAcct){
+	public void addAccount(Account onAcct)
+	{
 		this.accounts.add(onAcct);		
 	}
 	
-	public User addUser(String firstName, String lastName , String pin){
+	public User addUser(String firstName, String lastName , String pin)
+	{
 		//Create a new user object and add it to our list
 		
 		User newUser = new User(firstName, lastName,pin, this);
@@ -103,20 +112,24 @@ public class Bank {
 	       return newUser;
 	       }
 	
-	public User userLogin(String userID, String pin){
+	public User userLogin(String userID, String pin)
+	{
 		
 		//search through the list of users
-		for(User u : this.users){
+		for(User u : this.users)
+		{
 			
 			//check user ID is correct
-			if(u.getUUID().compareTo(userID) == 0 && u.validatePin(pin)){
+			if(u.getUUID().compareTo(userID) == 0 && u.validatePin(pin))
+			{
 				return u;
 			}
 		}
 		//if we havent found the pin
 		return null;
 	}
-	public String getName() {
+	public String getName()
+	 {
 		// TODO Auto-generated method stub
 		return this.name;
 	}
