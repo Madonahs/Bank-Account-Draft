@@ -1,7 +1,11 @@
+
 package Root;
 
 import java.util.ArrayList;
-
+/**
+ * @author syombua
+ *
+ */
 public class Account {
  
 	private String name;
