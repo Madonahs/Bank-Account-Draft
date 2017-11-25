@@ -9,7 +9,7 @@ public class ATM {
 		
 		Bank theBank = new Bank("Bank of Syombua");
 		
-		User aUser = theBank.addUser("Terrence", "Muthoka", "1234");
+		User aUser = theBank.addUser("Madona", "Wambua", "1234");
 		//add checking accounts for users
 		Account newAccount = new Account("Checking", aUser, theBank);
 		aUser.addAccount(newAccount);
