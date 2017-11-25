@@ -2,6 +2,10 @@ package Root;
 
 import java.util.Date;
 
+/**
+ * @author syombua
+ *
+ */
 public class Transaction {
  
 	private double amount;
