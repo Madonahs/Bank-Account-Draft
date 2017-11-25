@@ -1,7 +1,10 @@
 package Root;
 
 import java.util.Scanner;
-
+/**
+ * @author syombua
+ *
+ */
 public class ATM {
 
 	public static void main(String[] args){
