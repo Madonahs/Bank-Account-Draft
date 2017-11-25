@@ -4,7 +4,13 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
+/**
 
+ * @author syombua
+
+ *
+
+ */
 public class User {
 
 	/**
