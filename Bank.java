@@ -1,9 +1,14 @@
+
 package Root;
 
 
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author syombua
+ *
+ */
 public class Bank {
 
 	
