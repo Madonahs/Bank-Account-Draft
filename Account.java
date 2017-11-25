@@ -24,8 +24,6 @@ public class Account {
          
          //initialize transaction
          this.transaction = new ArrayList<Transaction>();
-        
-         
 	}
 	
 	
@@ -35,8 +33,6 @@ public class Account {
 		return this.uuid;
 				
 	}
-
-
 	public String getSummaryLine() {
 		// TODO Auto-generated method stub
 		//get the accounts balance
@@ -60,10 +56,6 @@ public class Account {
 		}
 		return balance;
 	}
-
-/**
- * 
- */
 	public void printTransHistory() {
 
 System.out.printf("\nTranscation History for accounts %s\n", this.uuid);
