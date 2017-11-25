@@ -95,10 +95,7 @@ public class ATM {
 		case 4: 
 			ATM.transferFunds(theUser,sc);
 			
-			break;
-			
-			
-			
+			break;	
 		}
 		
 		//redisplay menu unless user wants to quit
@@ -248,9 +245,4 @@ public static void withdrawlFunds(User theUser, Scanner sc) {
 		
 		theUser.addAcctTransaction(toAcct, amount, memo);
 	}
-
-	
-	
-
-
 }
