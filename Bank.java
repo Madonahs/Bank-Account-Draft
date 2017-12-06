@@ -1,5 +1,3 @@
-
-
 package Root;
 
 
@@ -69,6 +67,7 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 		int len = 10;
 		boolean nonUnique;
 		
+
 		//continue looping until we get a new unique ID
 		do{
 			//generate the number
@@ -132,6 +131,12 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 		//if we havent found the pin
 		return null;
 	}
+	/**
+	* getName gives a status report 
+	* 
+	* @return <code>true</code> if the name is correct
+	*  <code>false</code> otherwise.
+	*/
 	public String getName()
 	 {
 		// TODO Auto-generated method stub
