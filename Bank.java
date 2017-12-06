@@ -1,4 +1,5 @@
 
+
 package Root;
 
 
@@ -11,7 +12,10 @@ import java.util.Random;
  */
 public class Bank 
 {
+/*
+class bank the Constructer takes attribute name, an ArrayList of @User class and @Account 
 
+*/
 	private String name;
 	private ArrayList<User> users;
 	private ArrayList<Account> accounts;
