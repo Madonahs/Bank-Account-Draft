@@ -10,7 +10,9 @@ public class Account {
  
 	private String name;
 	/**
-	 * 
+	 * in class Account we create a constructor which takes a String, Class @User and class @Bank
+	 
+	 
 	 */
 	
 	private String uuid;
