@@ -50,7 +50,12 @@ public class User {
 	public void addAccount(Account onAcct){
 		this.accounts.add(onAcct);		
 	}
-	//return user UUId
+	/**
+	* getUUID gives a status report 
+	* 
+	* @return <code>true</code> if the uuid is correct
+	*  <code>false</code> otherwise.
+	*/
 	public String getUUID(){
 		return this.uuid;
 
