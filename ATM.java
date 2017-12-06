@@ -1,3 +1,4 @@
+
 package Root;
 
 import java.util.Scanner;
@@ -5,6 +6,12 @@ import java.util.Scanner;
  * @author syombua
  *
  */
+/*
+Class ATM this is where the main Method is executed I am using the Scanner to get
+@input from users , 
+@user returns User arguments(firstname, lastname , pin)
+@check account - we check the accounts for users
+*/
 public class ATM {
 
 	public static void main(String[] args){
@@ -28,6 +35,10 @@ public class ATM {
         	ATM.printUserMenu(curUser, sc);
         }
 	}
+	
+	/*
+	creating the mainMenuPrompt which takes class @Bank and @Scanner
+	*/
 	public static User mainMenuPrompt(Bank theBank, Scanner sc) {
 		// TODO Auto-generated method stub
 		String userID;
@@ -64,7 +75,7 @@ public class ATM {
 		theUser.printAccountsSummary();
 		
 		int choice;
-		//user menu
+		//user menu ui
 		do{
 			
 			System.out.printf("Welcome %s What would you love to do?\n" , theUser.getFirstName());
