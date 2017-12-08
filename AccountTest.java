@@ -1,10 +1,15 @@
+
 package init;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+/**
 
+ * @author syombua
+ *
+ */
 public class AccountTest {
 
 	@Before
