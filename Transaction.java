@@ -31,6 +31,10 @@ public class Transaction {
 	  this.memo = memo;
 	  
   }
+	
+/*
+*getAmount method returns amount;
+*/
 public double getAmount() {
 	// TODO Auto-generated method stub
 	
