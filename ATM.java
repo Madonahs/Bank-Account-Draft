@@ -116,7 +116,7 @@ public class ATM {
 		if(choice != 5){
 			//ATM.printUserMenu(theUser, sc);
 			System.exit(1);
-		}
+ 		}
 	}
 public static void showTransHistory(User theUser, Scanner sc) {
 		
@@ -154,7 +154,7 @@ public static void transferFunds(User theUser, Scanner sc) {
 	}while(fromAcct < 0|| fromAcct >= theUser.numAccounts());
 	
 	acctBal = theUser.getAcctBalance(fromAcct);
-//get the account to Trasnfer to
+              //get the account to Trasnfer to
 	do{
 		System.out.printf("Enter the number (1- %d) of the account\n" + "to transafer to:",theUser.numAccounts());
 		toAcct =sc.nextInt() - 1;
