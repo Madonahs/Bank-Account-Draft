@@ -2,10 +2,7 @@
 package Root;
 
 import java.util.Scanner;
-/**
- * @author syombua
- *
- */
+
 /*
 Class ATM this is where the main Method is executed I am using the Scanner to get
 @input from users , 
@@ -70,12 +67,12 @@ public class ATM {
 		
 	}
 	public static void printUserMenu(User theUser, Scanner sc) {
-		//print a summary of the users accounts
+		/**print a summary of the users accounts**/
 		
 		theUser.printAccountsSummary();
 		
 		int choice;
-		//user menu ui
+		/**user menu ui**/
 		do{
 			
 			System.out.printf("Welcome %s What would you love to do?\n" , theUser.getFirstName());
@@ -121,7 +118,7 @@ public class ATM {
 public static void showTransHistory(User theUser, Scanner sc) {
 		
 		int theAcct ;
-		//get account whose transaction history to look at
+		/**get account whose transaction history to look at**/
 		do{
 			System.out.printf("Enter the number (1-%d) of the account\n"+"whose transactions you want to see:",theUser.numAccounts());
 			theAcct = sc.nextInt() -1;
@@ -154,7 +151,7 @@ public static void transferFunds(User theUser, Scanner sc) {
 	}while(fromAcct < 0|| fromAcct >= theUser.numAccounts());
 	
 	acctBal = theUser.getAcctBalance(fromAcct);
-              //get the account to Trasnfer to
+              /**get the account to Trasnfer to**/
 	do{
 		System.out.printf("Enter the number (1- %d) of the account\n" + "to transafer to:",theUser.numAccounts());
 		toAcct =sc.nextInt() - 1;
