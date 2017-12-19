@@ -7,14 +7,8 @@ import java.util.ArrayList;
 public class Account {
 
 	private String name;
-	/**
-	 * 
-	 */
-
 	private String uuid;
-
 	private User holder;
-
 	private ArrayList<Transaction> transaction;
 
 	public Account(String name, User holder, Bank theBank) {
@@ -59,9 +53,7 @@ public class Account {
 		return balance;
 	}
 
-	/**
-	 * 
-	 */
+	
 	public void printTransHistory() {
 
 		System.out.printf("\nTranscation History for accounts %s\n", this.uuid);
