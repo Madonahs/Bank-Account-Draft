@@ -19,26 +19,6 @@ public class ATMTest {
 	}
 
 	@Test
-	public void testMainMenuPrompt() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testPrintUserMenu() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testShowTransHistory() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testTransferFunds() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
 	public void testWithdrawlFunds() {
 		//fail("Not yet implemented");
 	}
