@@ -12,10 +12,10 @@ public class Account {
 	private ArrayList<Transaction> transaction;
 
 	public Account(String name, User holder, Bank theBank) {
-		// set the account name and holder
+		/**set the account name and holder**/
 		this.name = name;
 		this.holder = holder;
-		// get account uuid
+		/** get account uuid**/
 		this.uuid = theBank.getNewAccontUUID();
 
 		/**initialize transaction**/
@@ -67,7 +67,7 @@ public class Account {
 
 	public void addTransaction(double amount, String memo) {
 		// TODO Auto-generated method stub
-		// create new transaction object
+		/** create new transaction object **/
 
 		Transaction newTrans = new Transaction(amount, memo, this);
 		this.transaction.add(newTrans);
