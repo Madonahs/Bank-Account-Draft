@@ -218,7 +218,12 @@ public static void withdrawlFunds(User theUser, Scanner sc) {
 	
 	theUser.addAcctTransaction(fromAcct, -1*amount, memo);
 }
-
+/**
+	* depositFunds method takes User arguments which
+	* 
+	* @return 	<code>true</code> if the all are called 
+        *  <code>false</code> otherwise.
+	*/
 	public static void depositFunds(User theUser, Scanner sc) {
 		// TODO Auto-generated method stub
 		
