@@ -11,9 +11,7 @@ import java.util.Random;
 public class Bank 
 {
 /*
-class bank the Constructer takes attribute name, an ArrayList of @User class and @Account 
-
-*/
+class bank the Constructer takes attribute name, an ArrayList of @User class and @Account */
 	private String name;
 	private ArrayList<User> users;
 	private ArrayList<Account> accounts;
@@ -24,7 +22,7 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 		this.users = new ArrayList<User>();
 		this.accounts = new ArrayList<Account>();
 	}
-	// generate a new universally unique ID for a user
+	/** generate a new universally unique ID for a user**/
 	public String getNewUserUUID()
 	{
 		
@@ -33,7 +31,7 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 		int len = 6;
 		boolean nonUnique;
 		
-		//continue looping until we get a new unique ID
+		/**continue looping until we get a new unique ID**/
 		do{
 			//generate the number
 			uuid = "";
@@ -106,7 +104,7 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 		User newUser = new User(firstName, lastName,pin, this);
 		this.users.add(newUser);
 		
-		//create a savings account for the user and add to user
+		/**create a savings account for the user and add to user**/
 		
 		Account newAccount = new Account("Savings", newUser, this);
 		   newUser.addAccount(newAccount);
