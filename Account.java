@@ -18,12 +18,12 @@ public class Account {
 		// get account uuid
 		this.uuid = theBank.getNewAccontUUID();
 
-		// initialize transaction
+		/**initialize transaction**/
 		this.transaction = new ArrayList<Transaction>();
 
 	}
 
-	// get the account ID
+	/** get the account ID**/
 	public String getUUID() {
 
 		return this.uuid;
@@ -32,9 +32,9 @@ public class Account {
 
 	public String getSummaryLine() {
 		// TODO Auto-generated method stub
-		// get the accounts balance
+		/**get the accounts balance**/
 		double balance = this.getBalance();
-		// format the summary line depending on whether the balance is negative
+		/**format the summary line depending on whether the balance is negative**/
 
 		if (balance >= 0) {
 			return String.format("%s : $%.02f : %s", this.uuid, balance, this.name);
