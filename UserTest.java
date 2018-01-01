@@ -15,10 +15,10 @@ public class UserTest {
 	public void setUp() throws Exception {
 	}
 
-	@Test
+	/*@Test
 	public void testUser() {
-		//fail("Not yet implemented");
-	}
+		
+	}*/
 
 	@Test
 	public void testAddAccount() {
@@ -35,10 +35,6 @@ public class UserTest {
 		//fail("Not yet implemented");
 	}
 
-	@Test
-	public void testGetFirstName() {
-		//fail("Not yet implemented");
-	}
 
 	@Test
 	public void testPrintAccountsSummary() {
