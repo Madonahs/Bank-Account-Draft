@@ -72,7 +72,7 @@ public class ATM {
 		theUser.printAccountsSummary();
 		
 		int choice;
-		/**user menu ui**/
+		/**user menu user interface**/
 		do{
 			
 			System.out.printf("Welcome %s What would you love to do?\n" , theUser.getFirstName());
@@ -83,15 +83,14 @@ public class ATM {
 			System.out.println("  5. Quit");
 			System.out.println();
 			System.out.println("Enter Choice: ");
-			choice = sc.nextInt();
-			
+			choice = sc.nextInt();*			
 			
 			if(choice <1 || choice> 5){
 				System.out.println("Invalicd choice. Please choose 1-5");
 			}
 		}while(choice <1 || choice>5);
 		
-		//process choice
+		/**process choice**/
 		switch (choice){
 		
 		case 1:
@@ -109,7 +108,7 @@ public class ATM {
 			break;	
 		}
 		
-		//redisplay menu unless user wants to quit
+		/**redisplay menu unless user wants to quit**/
 		if(choice != 5){
 			//ATM.printUserMenu(theUser, sc);
 			System.exit(1);
