@@ -41,20 +41,20 @@ public class UserTest {
 		//fail("Not yet implemented");
 	}
 
-	@Test
+	/*@Test
 	public void testNumAccounts() {
 		//fail("Not yet implemented");
-	}
+	}*/
 
 	@Test
 	public void testPrintAcctTransHistory() {
 		//fail("Not yet implemented");
 	}
 
-	@Test
+	/*@Test
 	public void testGetAcctBalance() {
 		//fail("Not yet implemented");
-	}
+	}*/
 
 	@Test
 	public void testGetAcctUUID() {
