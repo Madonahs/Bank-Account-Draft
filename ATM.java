@@ -173,7 +173,7 @@ public static void transferFunds(User theUser, Scanner sc) {
 		
 
 	}while(amount < 0 || amount > acctBal);
-	//finally do the transfer
+	/**finally do the transfer**/
 	
 	theUser.addAcctTransaction(fromAcct, -1*amount, String.format("Transfer to account %s",theUser.getAcctUUID(toAcct)));
 	theUser.addAcctTransaction(toAcct, amount, String.format("Transfer tp account %s",theUser.getAcctUUID(fromAcct)));
