@@ -19,7 +19,7 @@ public class BankTest {
 	}
 
 	
-	@Test
+	/*@Test
 	public void testGetNewAccontUUID() {
 		//fail("Not yet implemented");
 	}
@@ -32,11 +32,11 @@ public class BankTest {
 	@Test
 	public void testUserLogin() {
 		//fail("Not yet implemented");
-	}
+	}*/
 
-	@Test
+	/*@Test
 	public void testGetName() {
 		//fail("Not yet implemented");
-	}
+	}*/
 
 }
