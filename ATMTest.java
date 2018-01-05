@@ -16,16 +16,10 @@ public class ATMTest {
 	ATM atm;
 	@Before
 	public void setUp() throws Exception {
+		
+		atm = new ATM();
 	}
 
-	@Test
-	public void testWithdrawlFunds() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDepositFunds() {
-		//fail("Not yet implemented");
-	}
+	
 
 }
