@@ -7,9 +7,10 @@ import org.junit.Test;
 import Root.Transaction;
 public class TransactionTest {
 
-	Transaction trans;
+	
 	@Before
 	public void setUp() throws Exception {
+		Transcation trans = new Transaction();
 	}
 	
 	@Test
