@@ -1,5 +1,5 @@
 
-package init;
+/*package init;
 
 import static org.junit.Assert.*;
 
@@ -10,16 +10,16 @@ import org.junit.Test;
  * @author syombua
  *
  */
-public class AllTest {
+/*public class AllTest {
 
 	/**Working on all tests using JUnit*/
-	@Before
+	/*@Before
 	public void setUp() throws Exception {
-	}
+	}*/
 
-	@Test
+	/*@Test
 	public void test() {
 	
 	}
 
-}
+}*/
