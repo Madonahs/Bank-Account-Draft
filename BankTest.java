@@ -6,16 +6,11 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 import Root.Bank;
-/**
 
- * @author syombua
- *
- */
 public class BankTest {
 
 	Bank bank;
 	@Before
 	public void setUp() throws Exception {
 	}
-
 }
