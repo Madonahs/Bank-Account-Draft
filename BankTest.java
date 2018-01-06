@@ -18,25 +18,4 @@ public class BankTest {
 	public void setUp() throws Exception {
 	}
 
-	
-	/*@Test
-	public void testGetNewAccontUUID() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testAddAccount() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testUserLogin() {
-		//fail("Not yet implemented");
-	}*/
-
-	/*@Test
-	public void testGetName() {
-		//fail("Not yet implemented");
-	}*/
-
 }
