@@ -10,16 +10,16 @@ import org.junit.Test;
  * @author syombua
  *
  */
-/*public class AllTest {
+public class AllTest {
 
 	/**Working on all tests using JUnit*/
 	/*@Before
 	public void setUp() throws Exception {
-	}*/
+	}
 
 	/*@Test
 	public void test() {
 	
 	}
 
-}*/
+}
