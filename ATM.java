@@ -14,9 +14,9 @@ public class ATM {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		
-		Bank theBank = new Bank("Bank of Syombua");
+		Bank theBank = new Bank("Bank of BB");
 		
-		User aUser = theBank.addUser("Madona", "Wambua", "1234");
+		User aUser = theBank.addUser("Madona", "Syombua", "1234");
 		//add checking accounts for users
 		Account newAccount = new Account("Checking", aUser, theBank);
 		aUser.addAccount(newAccount);
