@@ -13,11 +13,11 @@ import org.junit.Test;
 public class AllTest {
 
 	/**Working on all tests using JUnit*/
-	/*@Before
+	@Before
 	public void setUp() throws Exception {
 	}
 
-	/*@Test
+	@Test
 	public void test() {
 	
 	}
