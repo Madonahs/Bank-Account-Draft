@@ -24,10 +24,10 @@ public class Transaction {
 		
 	}
   public Transaction(double amount,String memo, Account inAccount){
-	 //call the two arg constructor first
+	 /**call the two arg constructor first**/
 	  
 	  this(amount, inAccount);
-	  //set the memo
+	  /**set the memo**/
 	  this.memo = memo;
 	  
   }
