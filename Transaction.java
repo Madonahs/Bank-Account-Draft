@@ -33,8 +33,7 @@ public class Transaction {
   }
 	
 /*
-*getAmount method returns amount;
-*/
+*getAmount method returns amount;*/
 public double getAmount() {
 	// TODO Auto-generated method stub
 	
