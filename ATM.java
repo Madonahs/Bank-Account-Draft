@@ -17,7 +17,7 @@ public class ATM {
 		Bank theBank = new Bank("Bank of BB");
 		
 		User aUser = theBank.addUser("Madona", "Syombua", "1234");
-		//add checking accounts for users
+		/**add checking accounts for users**/
 		Account newAccount = new Account("Checking", aUser, theBank);
 		aUser.addAccount(newAccount);
         theBank.addAccount(newAccount);	
@@ -42,7 +42,7 @@ public class ATM {
 		String pin;
 		User outhUser;
 		
-		//prompt the user or the user id or pin until the correct one is reached
+		/**prompt the user or the user id or pin until the correct one is reached**/
 		
 		do{
 			System.out.printf("\n\nWelcome to %s\n\n ",theBank.getName());
