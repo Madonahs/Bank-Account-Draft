@@ -127,7 +127,7 @@ public static void showTransHistory(User theUser, Scanner sc) {
 			
 			
 		}while(theAcct < 0|| theAcct >= theUser.numAccounts());
-		//print the transaction history
+		/**print the transaction history**/
 		theUser.printAcctTransHistory(theAcct);
 		
 		
