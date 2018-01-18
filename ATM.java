@@ -24,11 +24,11 @@ public class ATM {
         
         User curUser;
         while(true){
-        	//stay in the login prompt until successful login
+        	/**stay in the login prompt until successful login**/
         	
         	curUser = ATM.mainMenuPrompt(theBank, sc);
         	
-        	//stay in the main menu until user quits
+        	/**stay in the main menu until user quits**/
         	ATM.printUserMenu(curUser, sc);
         }
 	}
