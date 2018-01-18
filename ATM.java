@@ -51,7 +51,7 @@ public class ATM {
 			System.out.print("Enter Pin: ");
 			pin = sc.nextLine();
 			
-			//try to get the user object corresponding to the ID and the pin 
+			/**try to get the user object corresponding to the ID and the pin **/
 			
 			outhUser = theBank.userLogin(userID, pin);
 			
