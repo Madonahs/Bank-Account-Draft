@@ -60,7 +60,7 @@ public class ATM {
 			}
 			
 			
-		}while(outhUser == null); // continue looping until successful log in
+		}while(outhUser == null); /**continue looping until successful log in**/
 		
 		
 		return outhUser;
