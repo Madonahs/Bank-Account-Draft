@@ -22,7 +22,7 @@ public class User {
 	
 	
 	public User(String firstName, String lastName, String pin, Bank theBank){
-		//set users name
+		/**set users name**/
 		this.firstName = firstName;
 		this.lastName = lastName;
 		
