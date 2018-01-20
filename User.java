@@ -62,7 +62,7 @@ public class User {
 	}
 	
 	/**Check if a given pin matches the true user pin**/
-	//return whether the pin is valid or not
+	/**return whether the pin is valid or not**/
 	public boolean validatePin(String aPin){
 		
 		try {
