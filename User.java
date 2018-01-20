@@ -26,7 +26,7 @@ public class User {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		
-		//store the pins MD5 hash, rather than the original value for security reasons;
+		/**store the pins MD5 hash, rather than the original value for security reasons;**/
 		try{
 		MessageDigest md = MessageDigest.getInstance("MD5");
 		this.pinHash = md.digest(pin.getBytes());
@@ -36,7 +36,7 @@ public class User {
 			e.printStackTrace();
 			System.exit(1);
 		}
-		//get a new unique universal IF for the user
+		/**get a new unique universal IF for the user**/
 		
 		this.uuid = theBank.getNewUserUUID();
 		//create empty list of accounts
