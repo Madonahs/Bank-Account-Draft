@@ -39,14 +39,14 @@ public class User {
 		/**get a new unique universal IF for the user**/
 		
 		this.uuid = theBank.getNewUserUUID();
-		//create empty list of accounts
+		/**create empty list of accounts**/
 		
 		this.accounts = new ArrayList<Account>();
 		//print log message
 		System.out.printf("New user %s, %s with ID %s created.\n", lastName, firstName, this.uuid);
 	}
 	
-	//add account for users should be public
+	/**add account for users should be public**/
 	public void addAccount(Account onAcct){
 		this.accounts.add(onAcct);		
 	}
@@ -61,7 +61,7 @@ public class User {
 
 	}
 	
-	//Check if a given pin matches the true user pin
+	/**Check if a given pin matches the true user pin**/
 	//return whether the pin is valid or not
 	public boolean validatePin(String aPin){
 		
