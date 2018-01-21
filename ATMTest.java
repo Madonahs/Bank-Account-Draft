@@ -7,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 import Root.ATM;
 /**
-
  * @author syombua
  *
  */
@@ -19,7 +18,5 @@ public class ATMTest {
 		
 		atm = new ATM();
 	}
-
-	
 
 }
