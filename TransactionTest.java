@@ -15,7 +15,7 @@ public class TransactionTest {
 	
 	@Test
 	public void testGetAmount() {
-		//fail("Not yet implemented");
+		
 	}
 
 }
