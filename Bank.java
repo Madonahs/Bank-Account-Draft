@@ -10,8 +10,7 @@ import java.util.Random;
  */
 public class Bank 
 {
-/*
-class bank the Constructer takes attribute name, an ArrayList of @User class and @Account */
+/*class bank the Constructer takes attribute name, an ArrayList of @User class and @Account */
 	private String name;
 	private ArrayList<User> users;
 	private ArrayList<Account> accounts;
@@ -40,7 +39,7 @@ class bank the Constructer takes attribute name, an ArrayList of @User class and
 				
 				uuid+= ((Integer)rng.nextInt(10)).toString();
 			}
-			//check to makesure its unique
+			/**check to makesure its unique**/
 			nonUnique = false;
 			for (User u : this.users)
 			{
