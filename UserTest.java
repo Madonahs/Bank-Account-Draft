@@ -11,7 +11,5 @@ public class UserTest {
   User user;
 	@Before
 	public void setUp() throws Exception {
-	}
-
-	
+	}	
 }
