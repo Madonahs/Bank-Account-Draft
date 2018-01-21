@@ -32,7 +32,6 @@ public class ATM {
         	ATM.printUserMenu(curUser, sc);
         }
 	}
-	
 	/*
 	creating the mainMenuPrompt which takes class @Bank and @Scanner
 	*/
@@ -62,9 +61,7 @@ public class ATM {
 			
 		}while(outhUser == null); /**continue looping until successful log in**/
 		
-		
 		return outhUser;
-		
 	}
 	public static void printUserMenu(User theUser, Scanner sc) {
 		/**print a summary of the users accounts**/
