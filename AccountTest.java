@@ -15,7 +15,7 @@ public class AccountTest {
 	@Before
 	public void setUp() throws Exception {
 	}
-/*
+
 	@Test
 	public void testAccount() {
 		//fail("Not yet implemented");
@@ -26,20 +26,20 @@ public class AccountTest {
 		//fail("Not yet implemented");
 	}
 
-	/*@Test
+	@Test
 	public void testGetSummaryLine() {
 		//fail("Not yet implemented");
 	}
 
 	@Test
 	public void testGetBalance() {
-		//fail("Not yet implemented");
+		
 	}
 
-	/*@Test
+	@Test
 	public void testPrintTransHistory() {
-		//fail("Not yet implemented");
-	}*/
+		
+	}
 
 	
 }
