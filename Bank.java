@@ -64,8 +64,7 @@ public class Bank
 		int len = 10;
 		boolean nonUnique;
 		
-
-		//continue looping until we get a new unique ID
+		/***continue looping until we get a new unique ID**/
 		do{
 			//generate the number
 			uuid = "";
@@ -115,7 +114,7 @@ public class Bank
 	public User userLogin(String userID, String pin)
 	{
 		
-		//search through the list of users
+		/**search through the list of users**/
 		for(User u : this.users)
 		{
 			
