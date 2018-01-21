@@ -18,17 +18,12 @@ public class AccountTest {
 
 	@Test
 	public void testAccount() {
-		//fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetUUID() {
-		//fail("Not yet implemented");
+		
 	}
 
 	@Test
 	public void testGetSummaryLine() {
-		//fail("Not yet implemented");
+	
 	}
 
 	@Test
