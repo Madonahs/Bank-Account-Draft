@@ -12,18 +12,18 @@ public class ATM {
 		Bank theBank = new Bank("Bank of BB");
 		
 		User aUser = theBank.addUser("Madona", "Syombua", "1234");
-		/**add checking accounts for users**/
+		//add checking accounts for users
 		Account newAccount = new Account("Checking", aUser, theBank);
 		aUser.addAccount(newAccount);
         theBank.addAccount(newAccount);	
         
         User curUser;
         while(true){
-        	/**stay in the login prompt until successful login**/
+        	//stay in the login prompt until successful login
         	
         	curUser = ATM.mainMenuPrompt(theBank, sc);
         	
-        	/**stay in the main menu until user quits**/
+        	//stay in the main menu until user quits
         	ATM.printUserMenu(curUser, sc);
         }
 	}
@@ -36,7 +36,7 @@ public class ATM {
 		String pin;
 		User outhUser;
 		
-		/**prompt the user or the user id or pin until the correct one is reached**/
+		//prompt the user or the user id or pin until the correct one is reached
 		
 		do{
 			System.out.printf("\n\nWelcome to %s\n\n ",theBank.getName());
@@ -82,7 +82,7 @@ public class ATM {
 			}
 		}while(choice <1 || choice>5);
 		
-		/**process choice**/
+		//process choice
 		switch (choice){
 		
 		case 1:
@@ -109,7 +109,7 @@ public class ATM {
 public static void showTransHistory(User theUser, Scanner sc) {
 		
 		int theAcct ;
-		/**get account whose transaction history to look at**/
+		//get account whose transaction history to look at
 		do{
 			System.out.printf("Enter the number (1-%d) of the account\n"+"whose transactions you want to see:",theUser.numAccounts());
 			theAcct = sc.nextInt() -1;
