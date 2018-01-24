@@ -59,12 +59,12 @@ public class ATM {
 		return outhUser;
 	}
 	public static void printUserMenu(User theUser, Scanner sc) {
-		/**print a summary of the users accounts**/
+		//print a summary of the users accounts
 		
 		theUser.printAccountsSummary();
 		
 		int choice;
-		/**user menu user interface**/
+		//user menu user interface
 		do{
 			
 			System.out.printf("Welcome %s What would you love to do?\n" , theUser.getFirstName());
