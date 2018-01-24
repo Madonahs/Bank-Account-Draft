@@ -3,12 +3,7 @@ package Root;
 
 import java.util.Scanner;
 
-/*
-Class ATM this is where the main Method is executed I am using the Scanner to get
-@input from users , 
-@user returns User attributes(firstname, lastname , pin)
-@check account - we check the accounts for users
-*/
+
 public class ATM {
 
 	public static void main(String[] args){
