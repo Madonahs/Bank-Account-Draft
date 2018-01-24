@@ -45,7 +45,7 @@ public class ATM {
 			System.out.print("Enter Pin: ");
 			pin = sc.nextLine();
 			
-			/**try to get the user object corresponding to the ID and the pin **/
+			//try to get the user object corresponding to the ID and the pin 
 			
 			outhUser = theBank.userLogin(userID, pin);
 			
@@ -54,7 +54,7 @@ public class ATM {
 			}
 			
 			
-		}while(outhUser == null); /**continue looping until successful log in**/
+		}while(outhUser == null); //continue looping until successful log in
 		
 		return outhUser;
 	}
@@ -100,7 +100,7 @@ public class ATM {
 			break;	
 		}
 		
-		/**redisplay menu unless user wants to quit**/
+		//redisplay menu unless user wants to quit
 		if(choice != 5){
 			//ATM.printUserMenu(theUser, sc);
 			System.exit(1);
@@ -142,7 +142,7 @@ public static void transferFunds(User theUser, Scanner sc) {
 	}while(fromAcct < 0|| fromAcct >= theUser.numAccounts());
 	
 	acctBal = theUser.getAcctBalance(fromAcct);
-              /**get the account to Trasnfer to**/
+              //get the account to Trasnfer to
 	do{
 		System.out.printf("Enter the number (1- %d) of the account\n" + "to transafer to:",theUser.numAccounts());
 		toAcct =sc.nextInt() - 1;
@@ -165,7 +165,7 @@ public static void transferFunds(User theUser, Scanner sc) {
 		
 
 	}while(amount < 0 || amount > acctBal);
-	/**finally do the transfer**/
+	//finally do the transfer
 	
 	theUser.addAcctTransaction(fromAcct, -1*amount, String.format("Transfer to account %s",theUser.getAcctUUID(toAcct)));
 	theUser.addAcctTransaction(toAcct, amount, String.format("Transfer tp account %s",theUser.getAcctUUID(fromAcct)));
