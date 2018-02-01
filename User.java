@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 /**
  * @author syombua
- *
  */
 public class User {
 
