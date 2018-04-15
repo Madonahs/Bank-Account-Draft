@@ -1,14 +1,7 @@
 
   
 
-  <association id="8">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="9" name="accounts"/>      
-      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  
   <association id="11">    
     <end type="SOURCE" refId="3" navigable="false">      
       <attribute id="12" name="inAccount"/>      
