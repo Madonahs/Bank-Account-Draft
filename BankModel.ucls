@@ -1,16 +1,6 @@
 
   
-d="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <association id="5">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="6" name="users"/>      
-      <multiplicity id="7" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+
   <association id="8">    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="9" name="accounts"/>      
