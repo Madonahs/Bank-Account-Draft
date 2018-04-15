@@ -1,8 +1,4 @@
-147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+
   <association id="20">    
     <end type="SOURCE" refId="1" navigable="false">      
       <attribute id="21" name="holder"/>      
